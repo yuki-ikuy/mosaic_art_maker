@@ -192,6 +192,7 @@ class ConfigPage(ctk.CTkFrame):
         try:
             with subprocess.Popen(
                 [python_exec, str(exe_path)],
+                cwd=BASE_DIR,  # ← 作業ディレクトリを固定（ここが重要！）
                 stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True
             ) as p:
                 for line in p.stdout:
