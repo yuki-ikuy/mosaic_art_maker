@@ -1,0 +1,19 @@
+blur_ksize: 3
+brightness_adjust_on: true
+brightness_factor: 1.0
+color_adjust_on: false
+color_factor: 1.0
+dpi: 72
+gaussian_blur_on: false
+horizontal_limit: 5
+jpeg_quality: 50
+link_vertical_horizontal: true
+max_tile_usage: 200
+num_title: 50
+original_image_path: 
+repeat_limit: 10
+resize_base_px: 10000
+rgb_values_file: output\rgb_values.txt.
+sub_blocks: 10
+tile_images_folder: 
+vertical_limit: 5
