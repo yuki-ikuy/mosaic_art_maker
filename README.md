@@ -1,4 +1,4 @@
-# mosaic_art_maker
+# mosaic_art_maker　v2.0版
 今後はwindows版をアップデートしていく予定です。
 基本的にはwindows版でもmacで実行できるように、
 OS依存のライブラリは極力使わないように設計はしていますが推奨はしません。  
